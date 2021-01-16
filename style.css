@@ -1,0 +1,50 @@
+body{
+    background-color: steelblue;
+}
+
+.header{
+    background-image: url("images/header+footer.jpg");
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background-image: url("images/header+footer.jpg");
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.header h1{
+    font-family: cursive;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: steelblue;
+    padding-left: 30px;
+}
+.menu{
+    margin-right: 40px;
+}
+.menu a{
+    margin-right: 20px;
+}
+h2,p{
+    text-align: center;
+}
+.game{
+    position: relative;
+}
+.game p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.game:hover p{
+    opacity: 1;
+}
+.game:hover img{
+    opacity: 0.25;
+}
